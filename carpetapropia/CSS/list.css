@@ -1,0 +1,31 @@
+/*etiqueta {atributs:valor;   }*/
+body
+{
+/*    background-color: blanchedalmond;*/
+    background-image: url("../Imagenes/musculator\ 2.jpg");
+    background-repeat: repeat-100;
+    color: darkblue;
+}
+h3
+{
+    color:aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32px;
+/*    width:20%*/
+    background-color: aliceblue;
+}
+
+li
+{
+    color:red;
+    font-weight:bold; /*negreta*/ 
+    font-style: italic; /*cursiva*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: coral;
+}
+
+dt
+{
+    color:blueviolet;
+}
+
