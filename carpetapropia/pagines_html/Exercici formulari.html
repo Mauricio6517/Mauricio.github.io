@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulari</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    form {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 400px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    input, select {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    legend {
+      font-style: italic;
+      color: blue; /* o el teu color blau desitjat */
+    }
+  </style>
+</head>
+<body>
+
+  <form action="#" method="post">
+    <fieldset>
+      <legend>Formació bàsica</legend>
+      <label for="estudis">Nivell d'estudis:</label>
+      <select id="estudis" name="estudis">
+        <option value="ESO">ESO</option>
+        <option value="GM">GM</option>
+        <option value="GS">GS</option>
+        <option value="Universidad">Universidad</option>
+      </select>
+    </fieldset>
+
+    <fieldset>
+      <legend style="color: orange; font-style: italic;">Nacionalitat</legend>
+      <label for="nacionalitat">Nacionalitat:</label>
+      <input type="text" id="nacionalitat" name="nacionalitat">
+    </fieldset>
+
+    <fieldset>
+      <legend style="color: red; font-style: italic;">Idiomes</legend>
+      <label for="idiomes">Idiomes:</label>
+      <input type="text" id="idiomes" name="idiomes">
+    </fieldset>
+
+    <fieldset>
+      <label for="altura">Alçada:</label>
+      <input type="number" id="altura" name="altura" value="170" min="0" max="300">
+    </fieldset>
+
+    <fieldset>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="exemple@mail.com">
+    </fieldset>
+
+    <button type="submit">Enviar</button>
+  </form>
+
+</body>
+</html>
